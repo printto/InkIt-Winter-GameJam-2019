@@ -63,7 +63,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectorPrefab: {fileID: 1900773647639618834, guid: 10d9eb3657e335d49bd25a2bbbe9d0b3,
     type: 3}
-  explosionParticle: {fileID: 0}
+  explosionParticle: {fileID: 8427268768640351253, guid: 387d07c385bdbc94583bc7359a3c6d24,
+    type: 3}
   projectorXRotationLimit: 0.2
   projectorMaterials:
   - {fileID: 2100000, guid: 559484cf4a16b6447aa37604c7cc6bd8, type: 2}
