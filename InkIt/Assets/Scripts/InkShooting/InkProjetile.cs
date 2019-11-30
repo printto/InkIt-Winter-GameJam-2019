@@ -10,6 +10,18 @@ public class InkProjetile : MonoBehaviour
     [SerializeField] float projectorXRotationLimit = 0.2f;
     [SerializeField] List<Material> projectorMaterials;
 
+    Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    private void Update()
+    {
+        transform.rotation = Quaternion.LookRotation(rb.velocity);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         Quaternion projectorRotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
