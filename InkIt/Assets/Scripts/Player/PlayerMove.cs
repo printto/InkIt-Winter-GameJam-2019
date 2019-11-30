@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove
 {
-    private float m_moveSpeed = 4;
+    private float m_moveSpeed = 5;
 
     private float m_slopeForce = 3f;
     private float m_slopeForceRayLength = 1.5f;
