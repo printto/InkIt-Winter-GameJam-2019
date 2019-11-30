@@ -40,6 +40,7 @@ public class InkProjetile : MonoBehaviour
                 }
             }
             temp.GetComponentInChildren<Projector>().transform.SetParent(other.transform);
+            Destroy(temp.gameObject);
         }
         if(explosionParticle != null)
         {

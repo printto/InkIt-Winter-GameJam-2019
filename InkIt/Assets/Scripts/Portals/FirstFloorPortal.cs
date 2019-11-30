@@ -4,8 +4,22 @@ using UnityEngine;
 
 public class FirstFloorPortal : MonoBehaviour
 {
+
+    [SerializeField] CharacterController player;
+
     private void OnTriggerEnter(Collider other)
     {
-        other.transform.position = other.transform.position + new Vector3(0, 10, 0);
+        Debug.Log("Triggered the first gate");
+        player.enabled = false;
+        player.transform.position = transform.position + new Vector3(0, 10, 0);
+        player.enabled = true;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Collided the first gate");
+        player.enabled = false;
+        player.transform.position = transform.position + new Vector3(0, 10, 0);
+        player.enabled = true;
     }
 }
