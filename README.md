@@ -1,4 +1,6 @@
 # InkIt - Kajaani Winter GameJam 2019
+Ink the way, get to the goal!
+
 Start from white screen. Ink your way to the goal. Becareful not to InkIt too much or else you won't see the way!
 
 [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
